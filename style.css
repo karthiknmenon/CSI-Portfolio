@@ -46,3 +46,30 @@ hr {
   transition: all 0.3s ease-in-out;
   transform: translateY(-0.8rem);
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .skills-card-row {
+    flex-wrap: wrap;
+  }
+
+  .skills-card {
+    margin: 2rem auto;
+  }
+
+}
+
+
+
+@media (max-width: 767px) {
+  .skills-card-row {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    margin-top: 4rem;
+  }
+
+  .skills-card {
+    margin: 1rem auto;
+  }
+}
