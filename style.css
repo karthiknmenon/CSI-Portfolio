@@ -19,3 +19,30 @@ hr {
 .about {
   padding: 4.25rem 0;
 }
+
+.skills {
+  padding: 4.25rem 0
+}
+
+.skills-card-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 4rem;
+}
+
+.skills-card {
+  height: 20rem;
+  width: 20rem;
+  background: white;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 0 23px rgba(0, 0, 0, 0.06);
+}
+
+.skills-card:hover {
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-0.8rem);
+}
